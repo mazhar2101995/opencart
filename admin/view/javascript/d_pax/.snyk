@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - omit-deep-lodash > lodash:
+        patched: '2022-10-08T15:01:44.866Z'
+    - vue-jest > node-cache > lodash:
+        patched: '2022-10-08T15:01:44.866Z'
+    - vue-jest > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash:
+        patched: '2022-10-08T15:01:44.866Z'
+    - vue-jest > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash:
+        patched: '2022-10-08T15:01:44.866Z'
+    - vue-jest > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash:
+        patched: '2022-10-08T15:01:44.866Z'
+    - vue-jest > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash:
+        patched: '2022-10-08T15:01:44.866Z'
+    - vue-jest > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash:
+        patched: '2022-10-08T15:01:44.866Z'
+    - vue-jest > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-08T15:01:44.866Z'
