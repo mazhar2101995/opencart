@@ -75,7 +75,7 @@
     "apollo-client": "^2.6.8",
     "apollo-link": "^1.2.13",
     "axios": "^0.19.2",
-    "bootstrap": "^4.4.1",
+    "bootstrap": "^5.0.0",
     "bootstrap-vue": "^2.11.0",
     "global": "^4.4.0",
     "graphql": "^15.0.0",
