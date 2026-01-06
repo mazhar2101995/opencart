@@ -83,7 +83,7 @@
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "omit-deep-lodash": "^1.1.4",
-    "synp": "^1.7.0",
+    "synp": "^1.9.5",
     "validator": "^13.0.0",
     "vee-validate": "^3.2.5",
     "vue": "^2.6.11",
